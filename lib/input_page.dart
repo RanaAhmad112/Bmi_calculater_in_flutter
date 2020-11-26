@@ -38,7 +38,27 @@ class _InputPageState extends State<InputPage> {
                   ],
                 ),
               ),),
-              Expanded(child:new  RepeatContainercode(colors: Color(0xFF1D1E33),),),
+              Expanded(child:new RepeatContainercode(
+                colors: Color(0xFF1D1E33),
+                cardwidget: Column(
+                  children: <Widget>[
+                    Icon(
+                      FontAwesomeIcons.female,
+                      size: 80.0,
+                    ),
+                    SizedBox(
+                      height: 80.0,
+                    ),
+                    Text(
+                      'FEMALE',
+                      style: TextStyle(
+                        fontSize: 30.0,
+                        color: Color(0xFF8D8E98),
+                      ),
+                    ),
+                  ],
+                ),
+              ),),
             ]
           ),),
           Expanded(child: RepeatContainercode(colors: Color(0xFF1D1E33),),),
