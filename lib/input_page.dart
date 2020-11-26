@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
@@ -20,6 +21,7 @@ class _InputPageState extends State<InputPage> {
               Expanded(child:new RepeatContainercode(
                 colors: Color(0xFF1D1E33),
                 cardwidget: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
                     Icon(
                       FontAwesomeIcons.male,
@@ -41,6 +43,7 @@ class _InputPageState extends State<InputPage> {
               Expanded(child:new RepeatContainercode(
                 colors: Color(0xFF1D1E33),
                 cardwidget: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
                     Icon(
                       FontAwesomeIcons.female,
